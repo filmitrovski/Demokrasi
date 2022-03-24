@@ -1,16 +1,48 @@
-var chunks = [
-    'der', 'dob', 'da', 'per', 'pa', 'ag', 'an', 'ad', 'cyr', 'def', 'fa', 'fi', 'po', 'pi', 'ken',
-    'sa', 'sa', 'is', 'il', 'li', 'di', 'len', 'lo', 're', 'ris', 'ky', 'ra', 're', 'ben', 'bar', 'op',
-    'ar', 'ad', 'ann', 'an', 'fed', 'dre', 'bra', 'arg', 'org'
+var names = [
+    'Cobble',
+    'Trez',
+    'Nilly',
+    'Terrard',
+    'Fammey',
+    'Zord',
+    'Henkle',
+    'Robar',
+    'Dinny',
+    'Herk',
+    'Derdy',
+    'Jank',
+    'Rikird',
+    'Perd',
+    'Millarg',
+    'Sleeve',
+    'Dichael',
+    'Grent',
+    'Borrard',
+    'Gelly',
+    'Sink',
+    'Fomd',
+    'Gemp',
+    'Winny',
+    'Sigerd',
+    'Zein',
+    'Prolop',
+    'Forkar',
+    'Qaid',
+    'Sassa',
+    'Fig',
+    'Cherp',
+    'Darrin',
+    'Siebed',
+    'Yank',
+    'Jommer',
+    'Fark',
+    'Denker',
+    'Yu',
+    'Estor',
+    'Eran',
+    'Gopper',
 ];
 
-/* a b c d e f g h i j k l m n o p q r s t u v w x y z */
-
-function randomChunk() {
-    return chunks[Math.floor(Math.random()*chunks.length)];
-}
-
 function generateName() {
-    return randomChunk() + randomChunk() + (Math.random() < 0.5 ? randomChunk() : '').toString() + ' ' + 
-            randomChunk() + randomChunk() + (Math.random() < 0.5 ? randomChunk() : '').toString();
+    return names[Math.floor(Math.random()*names.length)] + names[Math.floor(Math.random()*names.length)];
 }
