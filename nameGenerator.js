@@ -44,5 +44,5 @@ var names = [
 ];
 
 function generateName() {
-    return names[Math.floor(Math.random()*names.length)] + names[Math.floor(Math.random()*names.length)];
+    return names[Math.floor(Math.random()*names.length)] + " " + names[Math.floor(Math.random()*names.length)];
 }
