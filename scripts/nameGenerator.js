@@ -41,6 +41,9 @@ var names = [
     'Estor',
     'Eran',
     'Gopper',
+    'Didder',
+    'Fork',
+    'Grent',
 ];
 
 function generateName() {
